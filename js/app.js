@@ -1,0 +1,25 @@
+console.log("works");
+
+$(document).ready(function(){
+    $('.parallax').parallax();
+  });
+$('#set-po').submit(function(e){
+  e.preventDefault();
+  console.log($('#set-v').val());
+  $('#set-po').trigger('reset');
+});
+$('#pro-p').submit(function(e){
+  e.preventDefault();
+  console.log($('#pro-v').val());
+  $('#pro-p').trigger('reset');
+});
+$('#int-p').submit(function(e){
+  e.preventDefault();
+  console.log($('#int-v').val());
+  $('#int-p').trigger('reset');
+});
+$('#der-p').submit(function(e){
+  e.preventDefault();
+  console.log($('#der-v').val());
+  $('#der-p').trigger('reset');
+});
